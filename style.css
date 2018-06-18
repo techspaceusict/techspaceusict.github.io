@@ -1,0 +1,98 @@
+nav {
+  border-bottom: 1px solid #ccc; 
+  background-color: white;
+} 
+
+.content-top {
+  height: 95vh;
+  position: absolute;
+}
+#particles-js {
+  height: 95vh;
+  background-color: white;
+
+}
+#about {
+  height: 100vh;
+  background-color: #ddd;
+
+}
+
+.border-div {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 100vw 0 0;
+  border-color: #fff #ddd transparent transparent;
+  transform: scale(1.0001);
+}
+
+.border-div-2 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 100vw 0 0;
+  border-color: #fff #ddd transparent transparent;
+  transform: scale(1.0001) rotateZ(-180deg);
+
+}
+
+@media only screen and (min-width: 550px) {
+  .border-div { 
+    border-width: 50px 100vw 0 0;
+  }
+  .border-div-2 { 
+    border-width: 50px 100vw 0 0;
+  }
+}
+
+.btn-wire {
+  background-color: transparent;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  border: 2px solid white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.2s all;
+  color: white;
+  cursor: pointer;
+
+}
+
+.btn-wire:active,
+.btn-wire:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #ddd;
+}
+
+.btn-wire-dark {
+  background-color: transparent;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  border: 2px solid #ddd;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.2s all;
+  color: #ddd;
+  cursor: pointer;
+
+}
+
+.btn-wire-dark:active,
+.btn-wire-dark:hover {
+  text-decoration: none;
+  background-color: #ddd;
+  color: white;
+}
+
+.spacer {
+  transition: 0.3s all;
+}
+
+.section-heading {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
