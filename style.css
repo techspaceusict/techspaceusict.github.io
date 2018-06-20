@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-clip-box: hidden;  
+}
+
 nav {
   border-bottom: 1px solid #ccc; 
   background-color: white;
@@ -12,19 +24,14 @@ nav {
   background-color: white;
 
 }
-#about {
-  height: 100vh;
-  background-color: #ddd;
 
-}
 
 .border-div {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 40px 100vw 0 0;
+  border-width: 40px 20px 0 0;
   border-color: #fff #ddd transparent transparent;
-  transform: scale(1.0001);
 }
 
 .border-div-2 {
@@ -71,12 +78,12 @@ nav {
   background-color: transparent;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  border: 2px solid #ddd;
+  border: 2px solid #888;
   padding: 5px 10px 5px 10px;
   border-radius: 5px;
   outline: none;
   transition: 0.2s all;
-  color: #ddd;
+  color: #888;
   cursor: pointer;
 
 }
@@ -85,6 +92,7 @@ nav {
 .btn-wire-dark:hover {
   text-decoration: none;
   background-color: #ddd;
+  border: 2px solid #ddd;
   color: white;
 }
 
@@ -92,7 +100,49 @@ nav {
   transition: 0.3s all;
 }
 
+.about-section {
+  background-color: #ddd;
+  position: relative; 
+}
+
+.slant-heading {
+  line-height: 2rem;
+  position: relative;
+  top: -2.2rem;
+  background: #333;
+  -webkit-transform: skewY(-2.5deg);
+  -moz-transform: skewY(-2.5deg);
+  -ms-transform: skewY(-2.5deg);
+  -o-transform: skewY(-2.5deg);
+  transform: skewY(-2.5deg);
+  -webkit-backface-visibility: hidden;
+}
+
+
 .section-heading {
   letter-spacing: 0.2rem;
+  font-size: 3rem;
+  font-family: Righteous;
   text-transform: uppercase;
+  position: relative;
+  z-index: 0;
+  color: #fff;
 }
+
+./*.section-heading:after {
+  position: absolute;
+  bottom: -0.7rem;
+  content: '';
+  width: 100%;
+  height: 80px;
+  left: 0;
+  z-index: -1;
+  background: #fff;
+  border: solid #00f 2px;
+  -webkit-transform: skewY(-2.5deg);
+  -moz-transform: skewY(-2.5deg);
+  -ms-transform: skewY(-2.5deg);
+  -o-transform: skewY(-2.5deg);
+  transform: skewY(-2.5deg);
+  -webkit-backface-visibility: hidden;
+}*/
