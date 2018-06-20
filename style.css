@@ -24,29 +24,7 @@ nav {
   background-color: white;
 
 }
-#about {
-  height: 100vh;
-  background-color: #ddd;
-  position: relative;
-  z-index: 0;
-}
 
-#about:before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  top: -40px;
-  width: 100%;
-  height: 80px;
-  background: #ddd;
-  -webkit-transform: skewY(-2.5deg);
-  -moz-transform: skewY(-2.5deg);
-  -ms-transform: skewY(-2.5deg);
-  -o-transform: skewY(-2.5deg);
-  transform: skewY(-2.5deg);
-  -webkit-backface-visibility: hidden;
-}
 
 .border-div {
   width: 0;
@@ -122,6 +100,25 @@ nav {
   transition: 0.3s all;
 }
 
+.about-section {
+  background-color: #ddd;
+  position: relative; 
+}
+
+.slant-heading {
+  line-height: 2rem;
+  position: relative;
+  top: -2.2rem;
+  background: #333;
+  -webkit-transform: skewY(-2.5deg);
+  -moz-transform: skewY(-2.5deg);
+  -ms-transform: skewY(-2.5deg);
+  -o-transform: skewY(-2.5deg);
+  transform: skewY(-2.5deg);
+  -webkit-backface-visibility: hidden;
+}
+
+
 .section-heading {
   letter-spacing: 0.2rem;
   font-size: 3rem;
@@ -129,6 +126,7 @@ nav {
   text-transform: uppercase;
   position: relative;
   z-index: 0;
+  color: #fff;
 }
 
 ./*.section-heading:after {
