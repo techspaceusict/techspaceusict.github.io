@@ -175,6 +175,16 @@ nav {
   transform: rotate(5deg);
 }
 
+ul.about-list {
+  padding-left: 0;
+  padding-top: 0;
+}
+
+p.about-para {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 ./*.section-heading:after {
   position: absolute;
   bottom: -0.7rem;

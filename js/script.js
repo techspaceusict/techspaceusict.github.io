@@ -1,3 +1,4 @@
+new WOW().init();
 document.addEventListener("DOMContentLoaded", function() {
     particlesJS("particles-js", {
         particles: {

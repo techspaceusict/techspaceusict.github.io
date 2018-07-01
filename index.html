@@ -5,10 +5,14 @@
   <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
   <link href="https://fonts.googleapis.com/css?family=Comfortaa|Righteous" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="./css/card.css">
 <link rel="stylesheet" href="./css/timeline.css">
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+  integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+  crossorigin="anonymous">
 <meta name="viewport" content="width=device-width">
 </head>
 <body>
@@ -76,8 +80,14 @@
     </div>
     <div class="content row pb-5">
             <div class="col-12 col-md-6 p-5">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est excepturi, placeat obcaecati amet cum eum, doloribus ullam, harum aut eaque ducimus fuga dicta non quisquam unde quis! Libero, esse totam!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est excepturi, placeat obcaecati amet cum eum, doloribus ullam, harum aut eaque ducimus fuga dicta non quisquam unde quis! Libero, esse totam!
+                <p class="about-para">
+                    Techspace is the “of the students, by the students, for the students” technical society of USICT that works towards providing students with immense opportunities in the field of technology.
+                    We aim to provide an environment where, students can tinker with ideas and experiment and capitalize on the power of a strong community
+                    <br><em>Our vision</em> is to:
+                    <ul class="about-list">
+                        <li>To inculcate the culture of sharing knowledge and values</li>
+                        <li>To be the best place to nurture oneself</li>
+                    </ul>
                 </p>
                 <h4 class="pt-3"><a href="#" class="btn-wire-dark">Let's Join Hands</a></h4>
             </div>
@@ -118,34 +128,34 @@
             <div class="col p-2 text-center"><h1 class="section-heading">OUR CLUBS</h1></div>
         </div>
         <div class="content row" style="height: 100%; background-color: #eee;" id="root">
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="box-wrapper m-5">
-                    <img src="https://udemy-images.udemy.com/course/750x422/260756_bac8_3.jpg" alt="cogitans" />
-                    <div class="box-content">
-                        <a class="buy" href="javascript:void(0)"><span><i class="fa fa-html5"></i></span></a>
-                        <div class="title">COGITANS</div>
-                        <div class="desc">The Web Dev Club</div>
-                        <div class="p-3"></div>
-                    </div>
-                    <div class="success"></div>
-                </div>
-            </div> 
-            <div class="col-12 col-md-6 col-lg-4">
+
+            <div class="col-12 col-md-6 col-lg-4 wow bounceInUp" data-wow-offset="200">
                 <div class="box-wrapper m-5">
                     <img src="https://www.setaswall.com/wp-content/uploads/2017/06/Programming-Wallpapers-30-1280-x-720-768x432.jpg" alt="code school" />
                     <div class="box-content">
                         <a class="buy" href="javascript:void(0)"><span><i class="fa fa-code"></i></span></a>
                         <div class="title">CODE SCHOOL</div>
                         <div class="desc">Competitive Coding</div>
-                        <div class="p-1"></div>
+                        <div class="p-3"></div>
                     </div>
                 </div>
             </div> 
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4 wow bounceInDown" data-wow-offset="200">
+                <div class="box-wrapper m-5">
+                    <img src="https://udemy-images.udemy.com/course/750x422/260756_bac8_3.jpg" alt="cogitans" />
+                    <div class="box-content">
+                        <a class="buy" href="javascript:void(0)"><span><i class="fab fa-html5"></i></span></a>
+                        <div class="title">COGITANS</div>
+                        <div class="desc">The Web Dev Club</div>
+                        <div class="p-3"></div>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-12 col-md-6 col-lg-4 wow bounceInUp" data-wow-offset="200">
                 <div class="box-wrapper m-5">
                     <img src="https://i.pinimg.com/originals/8d/51/8f/8d518fbf62bfe6b2d895646ebd0422a0.jpg" alt="droid club" />
                     <div class="box-content">
-                        <a class="buy" href="javascript:void(0)"><span><i class="fa fa-android"></i></span></a>
+                        <a class="buy" href="javascript:void(0)"><span><i class="fab fa-android"></i></span></a>
                         <div class="title">Droid Club</div>
                         <div class="desc">Android Developement</div>
                         <div class="p-3"></div>
@@ -153,49 +163,59 @@
                     <div class="success"></div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4 wow bounceInDown" data-wow-offset="200">
                 <div class="box-wrapper m-5">
-                    <img src="https://udemy-images.udemy.com/course/750x422/260756_bac8_3.jpg" alt="cogitans" />
+                    <img src="https://images6.alphacoders.com/388/thumb-1920-388041.jpg" alt="Electrotech" />
                     <div class="box-content">
-                        <a class="buy" href="javascript:void(0)"><span><i class="fa fa-html5"></i></span></a>
-                        <div class="title">COGITANS</div>
-                        <div class="desc">The Web Dev Club</div>
+                        <a class="buy" href="javascript:void(0)"><span><i class="fa fa-microchip"></i></span></a>
+                        <div class="title">Electrotech</div>
+                        <div class="desc">Electronics</div>
                         <div class="p-3"></div>
                     </div>
                     <div class="success"></div>
                 </div>
             </div> 
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4 wow bounceInUp" data-wow-offset="200">
                 <div class="box-wrapper m-5">
-                    <img src="https://www.setaswall.com/wp-content/uploads/2017/06/Programming-Wallpapers-30-1280-x-720-768x432.jpg" alt="code school" />
+                    <img src="http://linux-2-day.com/wp-content/uploads/2015/03/github-universe1.jpg" alt="OSLC" />
                     <div class="box-content">
-                        <a class="buy" href="javascript:void(0)"><span><i class="fa fa-code"></i></span></a>
-                        <div class="title">CODE SCHOOL</div>
-                        <div class="desc">Competitive Coding</div>
-                        <div class="p-1"></div>
+                        <a class="buy" href="javascript:void(0)"><span><i class="fas fa-code-branch"></i></span></a>
+                        <div class="title">OSLC</div>
+                        <div class="desc">Open Source Learning</div>
+                        <div class="p-3"></div>
                     </div>
                 </div>
             </div> 
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4 wow bounceInDown" data-wow-offset="200">
                 <div class="box-wrapper m-5">
-                    <img src="https://i.pinimg.com/originals/8d/51/8f/8d518fbf62bfe6b2d895646ebd0422a0.jpg" alt="droid club" />
+                    <img src="http://www.printawallpaper.com/upload/designs/idea_d.jpg" alt="e-cell" />
                     <div class="box-content">
-                        <a class="buy" href="javascript:void(0)"><span><i class="fa fa-android"></i></span></a>
-                        <div class="title">Droid Club</div>
-                        <div class="desc">Android Developement</div>
+                        <a class="buy" href="javascript:void(0)"><span><i class="fas fa-lightbulb"></i></span></a>
+                        <div class="title">Zenith E-Cell</div>
+                        <div class="desc">Entrepreneurship Cell</div>
                         <div class="p-3"></div>
                     </div>
-                    <div class="success"></div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4 wow bounceInUp" data-wow-offset="200">
                 <div class="box-wrapper m-5">
-                    <img src="https://www.setaswall.com/wp-content/uploads/2017/06/Programming-Wallpapers-30-1280-x-720-768x432.jpg" alt="code school" />
+                    <img src="https://techcrunch.com/wp-content/uploads/2015/12/shutterstock_228897490.png" alt="Turing-AI" />
                     <div class="box-content">
                         <a class="buy" href="javascript:void(0)"><span><i class="fa fa-code"></i></span></a>
-                        <div class="title">CODE SCHOOL</div>
-                        <div class="desc">Competitive Coding</div>
-                        <div class="p-1"></div>
+                        <div class="title">Turing AI Machine Learning</div>
+                        <div class="desc">Machine Learning, Deep learning, Neural Networks</div>
+                        <div class="p-3"></div>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-12 col-md-6 col-lg-4 wow bounceInDown" data-wow-offset="200">
+                <div class="box-wrapper m-5">
+                    <img src="https://wordpress-storage.nyc3.digitaloceanspaces.com/2018/03/Unity-1024x579.jpg" alt="unity-logo" />
+                    <div class="box-content">
+                        <a class="buy" href="javascript:void(0)"><span><i class="fa fa-gamepad"></i></span></a>
+                        <div class="title">Unity GameDev</div>
+                        <div class="desc">AR/VR, Game Development</div>
+                        <div class="p-3"></div>
                     </div>
                 </div>
             </div> 
@@ -214,8 +234,7 @@
                     </div> <!-- cd-timeline__img -->
     
                     <div class="cd-timeline__content js-cd-content">
-                        <h2>Title of section 1</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+                        <h2>Foundation (September, 2014)</h2>
                         <a href="#0" class="cd-timeline__read-more">Read more</a>
                         <span class="cd-timeline__date">Jan 14</span>
                     </div> <!-- cd-timeline__content -->
@@ -227,9 +246,8 @@
                     </div> <!-- cd-timeline__img -->
     
                     <div class="cd-timeline__content js-cd-content">
-                        <h2>Title of section 2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-                        <a href="#0" class="cd-timeline__read-more">Read more</a>
+                        <h2>Orientation 1.0 on engineer’s day (2nd November, 2015)</h2>
+                         <a href="#0" class="cd-timeline__read-more">Read more</a>
                         <span class="cd-timeline__date">Jan 18</span>
                     </div> <!-- cd-timeline__content -->
                 </div> <!-- cd-timeline__block -->
@@ -240,8 +258,7 @@
                     </div> <!-- cd-timeline__img -->
     
                     <div class="cd-timeline__content js-cd-content">
-                        <h2>Title of section 3</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+                        <h2>Infoxpression 2016 </h2>
                         <a href="#0" class="cd-timeline__read-more">Read more</a>
                         <span class="cd-timeline__date">Jan 24</span>
                     </div> <!-- cd-timeline__content -->
@@ -253,8 +270,7 @@
                     </div> <!-- cd-timeline__img -->
     
                     <div class="cd-timeline__content js-cd-content">
-                        <h2>Title of section 4</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+                        <h2>UHack</h2>
                         <a href="#0" class="cd-timeline__read-more">Read more</a>
                         <span class="cd-timeline__date">Feb 14</span>
                     </div> <!-- cd-timeline__content -->
@@ -266,34 +282,28 @@
                     </div> <!-- cd-timeline__img -->
     
                     <div class="cd-timeline__content js-cd-content">
-                        <h2>Title of section 5</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+                        <h2>TODAY</h2>
+                        <p>From 12 clubs,  25 members in 2015 to 8 clubs, 200 members</p>
                         <a href="#0" class="cd-timeline__read-more">Read more</a>
                         <span class="cd-timeline__date">Feb 18</span>
                     </div> <!-- cd-timeline__content -->
                 </div> <!-- cd-timeline__block -->
     
                 <div class="cd-timeline__block js-cd-block">
-                    <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
-                        <img src="img/cd-icon-movie.svg" alt="Movie">
-                    </div> <!-- cd-timeline__img -->
-    
-                    <div class="cd-timeline__content js-cd-content">
-                        <h2>Final Section</h2>
-                        <p>This is the content of the last section</p>
-                        <span class="cd-timeline__date">Feb 26</span>
-                    </div> <!-- cd-timeline__content -->
+                        <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                            <img src="img/cd-icon-movie.svg" alt="Movie">
+                        </div> <!-- cd-timeline__img -->
                 </div> <!-- cd-timeline__block -->
             </div>
+            <br>
         </section>
     </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.0.0/particles.min.js"></script>
     <script src="./js/particles.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./js/script.js"></script>
     <script type="text/javascript" src="./js/timeline.js"></script>
-
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>
