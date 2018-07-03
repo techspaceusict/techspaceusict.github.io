@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
         particles: {
             number: {
                 value: 30,
+                limit: 50,
                 density: {
                     enable: !0,
                     value_area: 800

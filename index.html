@@ -13,6 +13,7 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
   integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
   crossorigin="anonymous">
+  
 <meta name="viewport" content="width=device-width">
 </head>
 <body>
@@ -55,14 +56,14 @@
 
 <!-- THE TOP PART OF THE WEBPAGE -->
 <div id="particles-js">
+<div class="back"></div>
+
 <div class="container-fluid content-top">
     <div class="row align-items-center" style="height: 100%">
-        <div class="col-md-1"></div>
+        <div class="col-md-1 d-none d-sm-block"></div>
         <div class="col-xs-12 col-md-5">
             <h1>Techspace USICT</h1>
             <p>Best place to nurture self.</p>
-            <p>The purpose of the club is to bring the technology and science community in USICT Campus together into one cohesive club. The Club will work within USICT and reach out to various courses and classes of USICT. The main functions of the club are to encourage academic growth along with technical skills.
-            </p>
             <br>
             <h4><a href="#" class="btn-wire-dark">Let's Join Hands</a></h4>
         </div>
@@ -75,11 +76,13 @@
 
 <!-- ABOUT SECTION -->
 <div class="container-fluid about-section">
-    <div class="row slant-heading" id="about">
+<!--     <div class="row slant-heading" id="about">
         <div class="col p-2 text-center"><h1 class="section-heading">About us</h1></div>
-    </div>
+    </div> -->
     <div class="content row pb-5">
             <div class="col-12 col-md-6 p-5">
+                <h3 class="small-heading">About Us</h3>
+                <hr>
                 <p class="about-para">
                     Techspace is the “of the students, by the students, for the students” technical society of USICT that works towards providing students with immense opportunities in the field of technology.
                     We aim to provide an environment where, students can tinker with ideas and experiment and capitalize on the power of a strong community
@@ -89,7 +92,7 @@
                         <li>To be the best place to nurture oneself</li>
                     </ul>
                 </p>
-                <h4 class="pt-3"><a href="#" class="btn-wire-dark">Let's Join Hands</a></h4>
+                <h4 class="pt-3"><a href="#" class="btn-wire-dark">Join Hands</a></h4>
             </div>
             <div class="col-12 col-md-6 p-5">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -125,7 +128,7 @@
 <!-- CLUBS SECTION -->
     <div class="container-fluid about-section" style="min-height: 100%;">
         <div class="row slant-heading" id="clubs">
-            <div class="col p-2 text-center"><h1 class="section-heading">OUR CLUBS</h1></div>
+            <div class="col p-2 text-center"><h1 class="section-heading">Clubs @Techspace</h1></div>
         </div>
         <div class="content row" style="height: 100%; background-color: #eee;" id="root">
 
@@ -222,91 +225,100 @@
         </div>
         <div class="p-4"></div>
     </div>
-    <div class="container-fluid about-section journey-section" style="min-height: 100%;">
-        <div class="row slant-heading" id="timeline">
-            <div class="col p-2 text-center"><h1 class="section-heading">JOURNEY TILL NOW</h1></div>
-        </div>
-        <section class="cd-timeline js-cd-timeline">
-            <div class="cd-timeline__container">
-                <div class="cd-timeline__block js-cd-block">
-                    <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
-                        <img src="img/cd-icon-picture.svg" alt="Picture">
-                    </div> <!-- cd-timeline__img -->
-    
-                    <div class="cd-timeline__content js-cd-content">
-                        <h2>Foundation (September, 2014)</h2>
-                        <a href="#0" class="cd-timeline__read-more">Read more</a>
-                        <span class="cd-timeline__date">Jan 14</span>
-                    </div> <!-- cd-timeline__content -->
-                </div> <!-- cd-timeline__block -->
-    
-                <div class="cd-timeline__block js-cd-block">
-                    <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
-                        <img src="img/cd-icon-movie.svg" alt="Movie">
-                    </div> <!-- cd-timeline__img -->
-    
-                    <div class="cd-timeline__content js-cd-content">
-                        <h2>Orientation 1.0 on engineer’s day (2nd November, 2015)</h2>
-                         <a href="#0" class="cd-timeline__read-more">Read more</a>
-                        <span class="cd-timeline__date">Jan 18</span>
-                    </div> <!-- cd-timeline__content -->
-                </div> <!-- cd-timeline__block -->
-    
-                <div class="cd-timeline__block js-cd-block">
-                    <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
-                        <img src="img/cd-icon-picture.svg" alt="Picture">
-                    </div> <!-- cd-timeline__img -->
-    
-                    <div class="cd-timeline__content js-cd-content">
-                        <h2>Infoxpression 2016 </h2>
-                        <a href="#0" class="cd-timeline__read-more">Read more</a>
-                        <span class="cd-timeline__date">Jan 24</span>
-                    </div> <!-- cd-timeline__content -->
-                </div> <!-- cd-timeline__block -->
-    
-                <div class="cd-timeline__block js-cd-block">
-                    <div class="cd-timeline__img cd-timeline__img--location js-cd-img">
-                        <img src="img/cd-icon-location.svg" alt="Location">
-                    </div> <!-- cd-timeline__img -->
-    
-                    <div class="cd-timeline__content js-cd-content">
-                        <h2>UHack</h2>
-                        <a href="#0" class="cd-timeline__read-more">Read more</a>
-                        <span class="cd-timeline__date">Feb 14</span>
-                    </div> <!-- cd-timeline__content -->
-                </div> <!-- cd-timeline__block -->
-    
-                <div class="cd-timeline__block js-cd-block">
-                    <div class="cd-timeline__img cd-timeline__img--location js-cd-img">
-                        <img src="img/cd-icon-location.svg" alt="Location">
-                    </div> <!-- cd-timeline__img -->
-    
-                    <div class="cd-timeline__content js-cd-content">
-                        <h2>TODAY</h2>
-                        <p>From 12 clubs,  25 members in 2015 to 8 clubs, 200 members</p>
-                        <a href="#0" class="cd-timeline__read-more">Read more</a>
-                        <span class="cd-timeline__date">Feb 18</span>
-                    </div> <!-- cd-timeline__content -->
-                </div> <!-- cd-timeline__block -->
-    
-                <div class="cd-timeline__block js-cd-block">
-                    <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
-                        <img src="img/cd-icon-movie.svg" alt="Movie">
-                    </div> <!-- cd-timeline__img -->
-    
-                    <div class="cd-timeline__content js-cd-content" style="opacity: 0">
-
-                    </div> <!-- cd-timeline__content -->
-                </div> <!-- cd-timeline__block -->
-            </div>
-        </section>
+<div class="container-fluid about-section journey-section" style="min-height: 100%;">
+    <div class="row slant-heading" id="timeline">
+        <div class="col p-2 text-center"><h1 class="section-heading">JOURNEY TILL NOW</h1></div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.0.0/particles.min.js"></script>
-    <script src="./js/particles.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./js/timeline.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script type="text/javascript" src="./js/script.js"></script>
+    <div class="row">
+        <div class="col-md-6 col-xs-12">
+    <section class="cd-timeline js-cd-timeline">
+        <div class="cd-timeline__container">
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+                    <img src="img/cd-icon-picture.svg" alt="Picture">
+                </div> <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h4>Foundation (September, 2014)</h4>
+                    <a href="#0" class="cd-timeline__read-more">Read more</a>
+                    <span class="cd-timeline__date">Jan 14</span>
+                </div> <!-- cd-timeline__content -->
+            </div> <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                    <img src="img/cd-icon-movie.svg" alt="Movie">
+                </div> <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h4>Orientation 1.0 on engineer’s day (2nd November, 2015)</h4>
+                    <img class="img-fluid" src="img/14.jpg">
+                     <a href="#0" class="cd-timeline__read-more">Read more</a>
+                    <span class="cd-timeline__date">Jan 18</span>
+                </div> <!-- cd-timeline__content -->
+            </div> <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+                    <img src="img/cd-icon-picture.svg" alt="Picture">
+                </div> <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h4>Infoxpression 2016 </h4>
+                    <a href="#0" class="cd-timeline__read-more">Read more</a>
+                    <span class="cd-timeline__date">Jan 24</span>
+                </div> <!-- cd-timeline__content -->
+            </div> <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+                    <img src="img/cd-icon-location.svg" alt="Location">
+                </div> <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h4>UHack</h4>
+                    <a href="#0" class="cd-timeline__read-more">Read more</a>
+                    <span class="cd-timeline__date">Feb 14</span>
+                </div> <!-- cd-timeline__content -->
+            </div> <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+                    <img src="img/cd-icon-location.svg" alt="Location">
+                </div> <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>TODAY</h2>
+                    <p>From 12 clubs,  25 members in 2015 to 8 clubs, 200 members</p>
+                    <a href="#0" class="cd-timeline__read-more">Read more</a>
+                    <span class="cd-timeline__date">Feb 18</span>
+                </div> <!-- cd-timeline__content -->
+            </div> <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                    <img src="img/cd-icon-movie.svg" alt="Movie">
+                </div> <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content" style="opacity: 0">
+
+                </div> <!-- cd-timeline__content -->
+            </div> <!-- cd-timeline__block -->
+        </div>
+    </section>
+    </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.0.0/particles.min.js"></script>
+<script src="./js/particles.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/timeline.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+<script id="__bs_script__">//<![CDATA[
+document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.24.5'><\/script>".replace("HOST", location.hostname));
+//]]></script>
 </body>
 </html>
