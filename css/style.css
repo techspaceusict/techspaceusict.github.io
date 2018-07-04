@@ -19,6 +19,8 @@ nav {
   border-bottom: 1px solid #ccc; 
   background-color: white;
   z-index: 2 !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 } 
 
 .content-top {
@@ -53,7 +55,7 @@ nav {
 
 #particles-js {
   height: 95vh;
-  background-color: white;
+  background: linear-gradient(45deg, #cd517c 50%, #f29260 100%) !important;
   z-index: -2;
 }
 
@@ -102,8 +104,9 @@ nav {
 .btn-wire:active,
 .btn-wire:hover {
   text-decoration: none;
-  background-color: #fff;
-  color: #ddd;
+  background-color: #f29260;
+  border: 2px solid white;
+  color: white;
 }
 
 .btn-wire-dark {
@@ -123,8 +126,8 @@ nav {
 .btn-wire-dark:active,
 .btn-wire-dark:hover {
   text-decoration: none;
-  background-color: #ddd;
-  border: 2px solid #ddd;
+  background-color: #f29260;
+  border: 2px solid #f29260;
   color: white;
 }
 
@@ -154,6 +157,15 @@ nav {
 .section-heading {
   letter-spacing: 0.2rem;
   font-size: 3rem;
+  font-family: Righteous;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 0;
+  /*color: #fff;*/
+}
+
+.small-section-heading {
+  letter-spacing: 0.2rem;
   font-family: Righteous;
   text-transform: uppercase;
   position: relative;
