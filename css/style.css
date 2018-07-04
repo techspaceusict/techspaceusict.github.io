@@ -279,3 +279,9 @@ p.about-para {
   margin-bottom: 20px;
   border: 2px solid white;
 }
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}

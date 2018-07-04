@@ -1,3 +1,14 @@
+function isScrolledIntoView(elem)
+{
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
+
 new WOW().init();
 document.addEventListener("DOMContentLoaded", function() {
     particlesJS("particles-js", {
@@ -113,3 +124,22 @@ document.addEventListener("DOMContentLoaded", function() {
         retina_detect: !0
     })
 }, !1);
+$(document).ready(function() {
+    /*$(window).scroll(function() {
+        var top_of_element = $("#facultyBoard").offset().top;
+        
+        var bottom_of_element = $("#facultyBoard").offset().top + $("#facultyBoard").outerHeight();
+        var bottom_of_screen = $(window).scrollTop() + window.innerHeight;
+        var top_of_screen = $(window).scrollTop();
+        console.log($("#facultyBoard").height(), top_of_element, bottom_of_screen)
+        if((top_of_screen < top_of_element) && (bottom_of_screen > bottom_of_element)){
+            // The element is visible, do something
+            $("#facultyBoard").addClass('sticky')
+            console.log("visible")
+        }
+        else {
+            $("#facultyBoard").removeClass('sticky')
+            // The element is not visible, do something else
+        }
+    });*/
+});
