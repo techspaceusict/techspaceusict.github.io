@@ -76,7 +76,7 @@ nav {
 
 #particles-js {
   height:  calc(100vh - 91px);
-  background: linear-gradient(45deg, #cd517c 50%, #f29260 100%) !important;
+  background: linear-gradient(45deg, #cd517c 30%, #f75e0f 90%) !important;
   z-index: -2;
 }
 
@@ -160,12 +160,16 @@ nav {
   color: white;
 }
 
+.btn-wire-dark:focus,
+.btn-wire:focus {
+  outline: none;
+}
 .spacer {
   transition: 0.3s all;
 }
 
 .about-section {
-  background-color: #eee;
+  background-color: #f7f7f7;
   position: relative; 
 }
 
@@ -185,7 +189,7 @@ nav {
 
 .section-heading {
   letter-spacing: 0.2rem;
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-family: Righteous;
   text-transform: uppercase;
   position: relative;
@@ -249,7 +253,7 @@ nav {
   right: 80%;
   height: 700px;
   width: 600px;
-  background: #eee;
+  background: #f7f7f7;
   -webkit-transform: rotate(-5deg);
   -moz-transform: rotate(-5deg);
   transform: rotate(5deg);
@@ -339,7 +343,7 @@ p.about-para {
 }
 
 .content-blog {
-  background-color: #eee;
+  background-color: #f7f7f7;
   position: relative;
   padding: 2rem;
 }
@@ -348,6 +352,9 @@ p.about-para {
   padding-top: 2rem;
 }
 
+.about-club {
+  padding: 15px;
+}
 .list-group-item.active {
   background-color: #f29260;
   border-color: #f29260;

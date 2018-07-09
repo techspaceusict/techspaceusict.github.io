@@ -142,7 +142,7 @@ $(document).ready(function() {
        // animate
        $('html, body').animate({
            scrollTop: $(hash).offset().top - 20
-         }, 500);
+         }, 300);
     });
 
     $(".scrollToAbout").on('click', function(e) {
@@ -156,7 +156,7 @@ $(document).ready(function() {
        // animate
        $('html, body').animate({
            scrollTop: $(hash).offset().top - $('nav').height()
-         }, 500);
+         }, 300);
     });
 
     $(".list-group .list-group-item").click(function(e) {
