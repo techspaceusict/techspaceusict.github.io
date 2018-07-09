@@ -29,7 +29,7 @@ nav {
   height: 80px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
   .nav-logo{
    height: 50px;
   }
@@ -186,6 +186,11 @@ nav {
   transform: skewY(-2.5deg);*/
 }
 
+@media screen and (min-width: 770px){
+  #about {
+    border-bottom: 1px dashed #f29260;
+  }
+}
 
 .section-heading {
   letter-spacing: 0.2rem;
@@ -197,7 +202,7 @@ nav {
   /*color: #fff;*/
 }
 
-@media screen and (max-width: 1200px) and (min-width: 768px) {
+@media screen and (max-width: 1200px) and (min-width: 770px) {
   .section-heading {
     font-size: 2rem;
   }
@@ -375,4 +380,20 @@ p.about-para {
 .blog-date {
   color: grey;
   font-size: 13px;
+}
+
+#about-bg-diagonal {
+    width: 50%;
+    height: 480px;
+    float: right;
+    background-image: url(../img/13.jpg);
+    border-left: 100px solid #f7f7f7;
+    border-top: 480px solid transparent;
+}
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    background-attachment: fixed;
 }
