@@ -1,34 +1,23 @@
-function isScrolledIntoView(elem)
-{
-    var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height();
-
-    var elemTop = $(elem).offset().top;
-    var elemBottom = elemTop + $(elem).height();
-
-    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-}
-
 new WOW().init();
 document.addEventListener("DOMContentLoaded", function() {
     particlesJS("particles-js", {
         particles: {
             number: {
                 value: 30,
-                limit: 50,
+                limit: 30,
                 density: {
                     enable: !0,
                     value_area: 800
                 }
             },
             color: {
-                value: "#888"
+                value: "#fff"
             },
             shape: {
                 type: "polygon",
                 stroke: {
                     width: 0,
-                    color: "#000000"
+                    color: "#fff"
                 },
                 polygon: {
                     nb_sides: 5
@@ -62,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
             line_linked: {
                 enable: !0,
                 distance: 150,
-                color: "#888",
+                color: "#fff",
                 opacity: .4,
                 width: 1
             },
@@ -142,4 +131,38 @@ $(document).ready(function() {
             // The element is not visible, do something else
         }
     });*/
+    $(".scrollTo").on('click', function(e) {
+
+       // prevent default anchor click behavior
+       e.preventDefault();
+
+       // store hash
+       var hash = this.hash;
+
+       // animate
+       $('html, body').animate({
+           scrollTop: $(hash).offset().top - 20
+         }, 500);
+    });
+
+    $(".scrollToAbout").on('click', function(e) {
+
+       // prevent default anchor click behavior
+       e.preventDefault();
+
+       // store hash
+       var hash = this.hash;
+
+       // animate
+       $('html, body').animate({
+           scrollTop: $(hash).offset().top - $('nav').height()
+         }, 500);
+    });
+
+    $(".list-group .list-group-item").click(function(e) {
+       $(".list-group .list-group-item").removeClass("active");
+       $(e.target).addClass("active");
+    });
+
+
 });

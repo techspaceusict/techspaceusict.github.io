@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Techspace USICT | GGSIPU</title>
     <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Righteous|Do+Hyeon|Lobster+Two|Quicksand|Ubuntu|Raleway|Roboto|Roboto+Mono|Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="icon" href="./img/TS-1.jpg">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/card.css">
     <link rel="stylesheet" href="./css/timeline.css">
@@ -19,7 +20,7 @@
 <body>
 <nav class="navbar navbar-expand-sm sticky-top navbar-light flex-nowrap">
     <div class="navbar-collapse collapse w-100 order-1 order-sm-0 dual-collapse">
-        <ul class="navbar-nav mr-auto" style="font-family: 'Ubuntu'">
+        <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
                 <a class="nav-link" href="#">Blogs</a>
             </li>
@@ -27,10 +28,10 @@
                 <a class="nav-link" href="#">Events</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Clubs @Techspace</a>
+                <a class="nav-link scrollTo" href="#clubs">Clubs @Techspace</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link scrollTo" href="#contact">Contact Us</a>
             </li>
 <!--             <li class="nav-item">
                 <a class="nav-link" href="#"></a>
@@ -41,7 +42,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="mx-auto order-0">
-        <a class="navbar-brand mx-auto" href="#"><img src="TS-1.jpg" height="100px"></a>
+        <a class="navbar-brand mx-auto" href="#"><img src="img/TS-1.jpg" class="nav-logo"></a>
     </div>
     <!-- <span class="navbar-brand w-100">Navbar 5</span> -->
     <div class="navbar-collapse collapse order-3 order-sm-2 w-100 dual-collapse d-none d-sm-block">
@@ -51,7 +52,7 @@
             </li>
         </ul>
     </div>
-    <div class="w-50 d-block d-sm-none spacer"><!-- spacer --></div>
+    <div class="w-75 d-block d-sm-none spacer"><!-- spacer --></div>
 </nav>
 
 <!-- THE TOP PART OF THE WEBPAGE -->
@@ -62,15 +63,20 @@
     <div class="row align-items-center" style="height: 100%">
         <div class="col-md-1 d-none d-sm-block"></div>
         <div class="col-xs-12 col-md-5">
-            <h1 class="text-white" style="font-family: 'Do Hyeon'">Techspace USICT</h1>
-            <p class="text-white" style="font-family: 'Do Hyeon'">Best place to nurture yourself.</p>
+            <h1 class="text-white techspace-title">Techspace <br>USICT</h1>
+            <p class="text-white" style="font-family: 'Quicksand'">Best place to nurture yourself.</p>
             <br>
-            <h4><a href="#" class="btn-wire">Let's Join Hands</a></h4>
+            <h4 style="font-family: 'Quicksand'"><a href="#" class="btn-wire">Let's Join Hands</a></h4>
         </div>
         <div class="col-md-5 d-none d-sm-block">
             <img class="img-fluid img-thumbnail" src="img/3.jpg">
         </div>
-    </div>  
+        <div class="col-xs-12 col-md-12 text-center">
+
+            <a href="#about" class="scrollToAbout"><i class="icon fa fa-chevron-down fa-2x text-white" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
 </div>    
 </div>
 
@@ -79,22 +85,25 @@
 <!--     <div class="row slant-heading" id="about">
         <div class="col p-2 text-center"><h1 class="section-heading">About us</h1></div>
     </div> -->
-    <div class="content row pb-5">
+    <div class="row" id="about">
             <div class="col-12 col-md-6 p-5">
-                <h3 class="small-heading">About Us</h3>
-                <hr>
+                <h3 class="small-heading">About Us
+                <div class="hr"></div>
+                </h3>
+                
                 <p class="about-para" style="font-family: 'Quicksand'">
-                    Techspace is the “of the students, by the students, for the students” technical society of USICT that works towards providing students with  opportunities to grow outside .
-                    We aim to provide an environment where, students can tinker with ideas and experiment and capitalize on the power of a strong community
-                    <br><em>Our vision</em> is to:
+                    Techspace is the “of the students, by the students, for the students” technical society of USICT that works towards <!-- providing students with  opportunities to grow outside --> . 
+                    <br>
+                    We aim to provide an environment where students can tinker with ideas, experiment and capitalize on the power of a strong community.<br>
+                    <br><h5><span style="border-bottom: 2px dotted #f29260;">Our vision is:</h5>
                     <ul class="about-list" style="font-family: 'Quicksand'">
                         <li>To inculcate the culture of sharing knowledge and values</li>
                         <li>To be the best place to nurture oneself</li>
                     </ul>
                 </p>
-                <h4 class="pt-3"><a href="#" class="btn-wire-dark">Join Hands</a></h4>
+                <h4 class="pt-3"><a href="#clubs" class="btn-wire-dark scrollTo">Join Hands</a></h4>
             </div>
-            <div class="col-12 col-md-6 p-5">
+            <div class="col-12 col-md-6 p-5 d-none d-sm-block">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -122,51 +131,163 @@
                         </a>
                     </div>
             </div>  
-    </div>
-</div>
 
+    </div>
+
+</div>
 <!-- CLUBS SECTION -->
     <div class="container-fluid about-section" style="min-height: 100%;">
-        <div class="row slant-heading" id="clubs">
+
+        <div class="row slant-heading d-md-none">
             <div class="col p-2 text-center"><h1 class="section-heading">Clubs @Techspace</h1></div>
         </div>
-        <div class="content row" style="height: 100%; background-color: #eee;" id="root">
+        <div class="content container-fluid"  id="clubs" style="height: 100%; background-color: #eee;" id="root">
+            <div class="row">
+                <div class="col-md-3 d-none d-md-block">
+                    <div class="sticky">
+                    <div class="row slant-heading">
+                        <div class="col p-2 text-center"><h2 class="section-heading" style="margin-top: 1rem">Clubs @Techspace</h2></div>
+                    </div>
 
-            <div class="col-12 col-md-6 col-lg-4 wow bounceInUp" data-wow-offset="200">
-                <div class="box-wrapper m-5">
-                    <img src="https://www.setaswall.com/wp-content/uploads/2017/06/Programming-Wallpapers-30-1280-x-720-768x432.jpg" alt="code school" />
-                    <div class="box-content">
-                        <a class="buy" href="javascript:void(0)"><span><i class="fa fa-code"></i></span></a>
-                        <div class="title">CODE SCHOOL</div>
-                        <div class="desc">Competitive Coding</div>
-                        <div class="p-3"></div>
+                    <div class="list-group" id="list-clubs">
+                      <a href="#codeschool" class="list-group-item list-group-item-action active scrollTo">Codeschool</a>
+                      <a href="#cogitans" class="list-group-item list-group-item-action scrollTo">Cogitans</a>
+                      <a href="#droid" class="list-group-item list-group-item-action scrollTo">Droid Club</a>
+                      <a href="#" class="list-group-item list-group-item-action scrollTo">Electrotech</a>
+                      <a href="#" class="list-group-item list-group-item-action scrollTo">Open Source Learning Club</a>
+                      <a href="#" class="list-group-item list-group-item-action scrollTo">Zenith E-Cell</a>
+                      <a href="#" class="list-group-item list-group-item-action scrollTo">Turing AI</a>
+                      <a href="#" class="list-group-item list-group-item-action scrollTo">Unity Game-Dev</a>
                     </div>
                 </div>
-            </div> 
-            <div class="col-12 col-md-6 col-lg-4 wow bounceInDown" data-wow-offset="200">
-                <div class="box-wrapper m-5">
-                    <img src="https://udemy-images.udemy.com/course/750x422/260756_bac8_3.jpg" alt="cogitans" />
-                    <div class="box-content">
-                        <a class="buy" href="javascript:void(0)"><span><i class="fab fa-html5"></i></span></a>
-                        <div class="title">COGITANS</div>
-                        <div class="desc">The Web Dev Club</div>
-                        <div class="p-3"></div>
-                    </div>
                 </div>
-            </div> 
-            <div class="col-12 col-md-6 col-lg-4 wow bounceInUp" data-wow-offset="200">
-                <div class="box-wrapper m-5">
-                    <img src="https://i.pinimg.com/originals/8d/51/8f/8d518fbf62bfe6b2d895646ebd0422a0.jpg" alt="droid club" />
-                    <div class="box-content">
-                        <a class="buy" href="javascript:void(0)"><span><i class="fab fa-android"></i></span></a>
-                        <div class="title">Droid Club</div>
-                        <div class="desc">Android Developement</div>
-                        <div class="p-3"></div>
+            <div class="col-md-9">
+            <!--Begin club row--> 
+            <div class="row content-club" id="codeschool">
+                <div class="col-xs-4 col-md-4 wow fadeIn" data-wow-offset="100">
+                    <div class="box-wrapper">
+                        <div class="card-image" style="background: url('https://www.setaswall.com/wp-content/uploads/2017/06/Programming-Wallpapers-30-1280-x-720-768x432.jpg');background-repeat: none; background-size: cover" alt="code school"></div>
+                        <div class="box-content">
+                            <a class="buy" href="javascript:void(0)"><span><i class="fa fa-code"></i></span></a>
+                            <div class="title">CODE SCHOOL</div>
+                            <div class="desc">Competitive Coding</div>
+                            <br>
+                            <a href="#" class="btn-wire-dark d-md-none" target="_blank">Visit page</a>
+                            <div class="p-3 d-md-none"></div>
+                        </div>
                     </div>
-                    <div class="success"></div>
+                </div> 
+                <div class="col-xs-8 col-md-8 d-none d-md-block">
+                <div class="row">
+                    <h1>Codeschool</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="row"> 
+                    <div class="col-xs-4 col-md-2 text-center">
+                        <div class="circle-img" style="background: url('./img/14.jpg');background-size: cover;"></div>
+                        <p>Member 1</p>
+                    </div>
+                    <div class="col-xs-4 col-md-2 text-center">
+                        <div class="circle-img" style="background: url('./img/14.jpg');background-size: cover;"></div>
+                        <p>Member 1</p>
+                    </div>
+                    <div class="col-xs-4 col-md-2 text-center">
+                        <div class="circle-img" style="background: url('./img/14.jpg');background-size: cover;"></div>
+                        <p>Member 1</p>
+                    </div>
+
+                    <div class="col-xs-4 col-md-6 text-right page-link-visit">
+                        <h3><a href="#" class="btn-wire-dark"  target="_blank">Visit page</a></h3>
+                    </div>
+                </div>    
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 wow bounceInDown" data-wow-offset="200">
+            <!--End club row-->
+            
+            <!--Begin club row--> 
+            <div class="row content-club" id="cogitans">
+                <div class="col-xs-8 col-md-8 d-none d-md-block">
+                <div class="row"> 
+                    <h1>Cogitans</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="row"> 
+                    <div class="col-xs-4 col-md-6 text-left align-middle page-link-visit">
+                        <h3><a href="#" class="btn-wire-dark" target="_blank">Visit page</a></h3>
+                    </div>
+                    <div class="col-xs-4 col-md-2 text-center">
+                        <div class="circle-img" style="background: url('./img/14.jpg');background-size: cover;"></div>
+                        <p>Member 1</p>
+                    </div>
+                    <div class="col-xs-4 col-md-2 text-center">
+                        <div class="circle-img" style="background: url('./img/14.jpg');background-size: cover;"></div>
+                        <p>Member 1</p>
+                    </div>
+                    <div class="col-xs-4 col-md-2 text-center">
+                        <div class="circle-img" style="background: url('./img/14.jpg');background-size: cover;"></div>
+                        <p>Member 1</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-xs-4 col-md-4 wow fadeIn text-right" data-wow-offset="100">
+                    <div class="box-wrapper">
+                        <div class="card-image" style="background: url('https://udemy-images.udemy.com/course/750x422/260756_bac8_3.jpg');background-repeat: none; background-size: cover"></div>
+                        <div class="box-content">
+                            <a class="buy" href="javascript:void(0)"><span><i class="fab fa-html5"></i></span></a>
+                            <div class="title">COGITANS</div>
+                            <div class="desc">The Web Dev Club</div>
+                            <br>
+                            <a href="#" class="btn-wire-dark d-md-none" target="_blank">Visit page</a>
+                            <div class="p-3 d-md-none"></div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <!--End club row--> 
+
+             <!--Begin club row--> 
+            <div class="row content-club" id="droid">
+                <div class="col-xs-4 col-md-4 wow fadeIn" data-wow-offset="100">
+                    <div class="box-wrapper">
+                        <div class="card-image" style="background: url('https://i.pinimg.com/originals/8d/51/8f/8d518fbf62bfe6b2d895646ebd0422a0.jpg');background-repeat: none; background-size: cover" alt="code school"></div>
+                        <div class="box-content">
+                            <a class="buy" href="javascript:void(0)"><span><i class="fab fa-android"></i></span></a>
+                            <div class="title">Droid Club</div>
+                            <div class="desc">Android Developement</div>
+                            <br>
+                            <a href="#" class="btn-wire-dark d-md-none" target="_blank">Visit page</a>
+                            <div class="p-3 d-md-none"></div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-xs-8 col-md-8 d-none d-md-block">
+                <div class="row">
+                    <h1>Droid Club</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="row"> 
+                    <div class="col-xs-4 col-md-2 text-center">
+                        <div class="circle-img" style="background: url('./img/14.jpg');background-size: cover;"></div>
+                        <p>Member 1</p>
+                    </div>
+                    <div class="col-xs-4 col-md-2 text-center">
+                        <div class="circle-img" style="background: url('./img/14.jpg');background-size: cover;"></div>
+                        <p>Member 1</p>
+                    </div>
+                    <div class="col-xs-4 col-md-2 text-center">
+                        <div class="circle-img" style="background: url('./img/14.jpg');background-size: cover;"></div>
+                        <p>Member 1</p>
+                    </div>
+
+                    <div class="col-xs-4 col-md-6 text-right page-link-visit">
+                        <h3><a href="#" class="btn-wire-dark"  target="_blank">Visit page</a></h3>
+                    </div>
+                </div>    
+                </div>
+            </div>
+            <!--End club row-->
+
+            <div class="col-12 col-md-6 col-lg-4 wow fadeIn" data-wow-offset="100">
                 <div class="box-wrapper m-5">
                     <img src="https://images6.alphacoders.com/388/thumb-1920-388041.jpg" alt="Electrotech" />
                     <div class="box-content">
@@ -178,7 +299,7 @@
                     <div class="success"></div>
                 </div>
             </div> 
-            <div class="col-12 col-md-6 col-lg-4 wow bounceInUp" data-wow-offset="200">
+            <div class="col-12 col-md-6 col-lg-4 wow fadeIn" data-wow-offset="100">
                 <div class="box-wrapper m-5">
                     <img src="http://linux-2-day.com/wp-content/uploads/2015/03/github-universe1.jpg" alt="OSLC">
                     <div class="box-content">
@@ -189,7 +310,7 @@
                     </div>
                 </div>
             </div> 
-            <div class="col-12 col-md-6 col-lg-4 wow bounceInDown" data-wow-offset="200">
+            <div class="col-12 col-md-6 col-lg-4 wow fadeIn" data-wow-offset="100">
                 <div class="box-wrapper m-5">
                     <img src="http://www.printawallpaper.com/upload/designs/idea_d.jpg" alt="e-cell">
                     <div class="box-content">
@@ -200,7 +321,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 wow bounceInUp" data-wow-offset="200">
+            <div class="col-12 col-md-6 col-lg-4 wow fadeIn" data-wow-offset="100">
                 <div class="box-wrapper m-5">
                     <img src="https://techcrunch.com/wp-content/uploads/2015/12/shutterstock_228897490.png" alt="Turing-AI" />
                     <div class="box-content">
@@ -211,7 +332,7 @@
                     </div>
                 </div>
             </div> 
-            <div class="col-12 col-md-6 col-lg-4 wow bounceInDown" data-wow-offset="200">
+            <div class="col-12 col-md-6 col-lg-4 wow fadeIn" data-wow-offset="100">
                 <div class="box-wrapper m-5">
                     <img src="https://wordpress-storage.nyc3.digitaloceanspaces.com/2018/03/Unity-1024x579.jpg" alt="unity-logo" />
                     <div class="box-content">
@@ -223,14 +344,17 @@
                 </div>
             </div> 
         </div>
+    </div>
+          
+        </div>
         <div class="p-4"></div>
     </div>
 <div class="container-fluid about-section" style="min-height: 100%;">
-    <div class="row slant-heading" id="timeline" style="background-color: #eee; z-index: 1">
-        <div class="col p-2 text-center"><h1 class="section-heading">JOURNEY TILL NOW</h1></div>
-    </div>
     <div class="row">
         <div class="col-md-6 col-xs-12">
+             <div class="row slant-heading d-block d-sm-none" id="timeline" style="background-color: #eee; z-index: 1">
+                    <div class="col p-2 text-center"><h1 class="section-heading">JOURNEY TILL NOW</h1><p class="cd-timeline__date">THE TECHSPACE STORY</p></div>
+            </div>
             <section class="cd-timeline js-cd-timeline">
                 <div class="cd-timeline__container">
                     <div class="cd-timeline__block js-cd-block">
@@ -319,51 +443,148 @@
         </div>
         <div class="col-md-6 col-xs-12 text-center sticky" style="z-index: 2">
             <div class="sticky pt-2">
-                <br>
-                <br>
+
+                <div class="row slant-heading d-none d-sm-block" id="timeline" style="background-color: #eee; z-index: 1">
+                    <div class="col p-2 text-center"><h1 class="section-heading">JOURNEY TILL NOW</h1><p class="cd-timeline__date">THE TECHSPACE STORY</p></div>
+                </div>
                 <h1 class="small-heading" >Faculty Board</h1>
                 <br>
                 <div class="row" id="facultyBoard" style="font-family: 'Quicksand'">
                     <div class="col col-md-4 col-xs-4">
                         <img src="img/14.jpg" class="faculty-img">
-                        <p>Dr. Arvinder Kaur <br> Dean USICT</p>
+                        <p>Dr. Arvinder Kaur <br> <em>Dean USICT</em></p>
                         <p>Chairperson</p>
                     </div>
                     <div class=" col col-md-4 col-xs-4">
                         <img src="img/14.jpg" class="faculty-img">
-                        <p>Mr. Shiv Ram Meena <br> Asstt. Prof. USICT</p>
+                        <p>Mr. Shiv Ram Meena <br> <em>Asstt. Prof. USICT</em></p>
                         <p>Chief Faculty Advisor</p>
                     </div>
                     <div class="col col-md-4 col-xs-4">
                         <img src="img/14.jpg" class="faculty-img">
-                        <p>Mr. Chakresh Kumar <br> Asstt. Prof. USICT</p>
+                        <p>Mr. Chakresh Kumar <br> <em>Asstt. Prof. USICT</em></p>
                         <p>Faculty Advisor</p>
                     </div>
                 </div>
+                <div class="row" id="facultyBoard" style="font-family: 'Quicksand'">
+                    <div class="col col-md-4 col-xs-4">
+                        <img src="img/14.jpg" class="faculty-img">
+                        <p>Dr. Arvinder Kaur <br> <em>Dean USICT</em></p>
+                        <p>Chairperson</p>
+                    </div>
+                    <div class=" col col-md-4 col-xs-4">
+                        <img src="img/14.jpg" class="faculty-img">
+                        <p>Mr. Shiv Ram Meena <br> <em>Asstt. Prof. USICT</em></p>
+                        <p>Chief Faculty Advisor</p>
+                    </div>
+                    <div class="col col-md-4 col-xs-4">
+                        <img src="img/14.jpg" class="faculty-img">
+                        <p>Mr. Chakresh Kumar <br> <em>Asstt. Prof. USICT</em></p>
+                        <p>Faculty Advisor</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
 </div>
-
+<div class="container-fluid content-blog">
+    <div class="row">
+    <div class="col-xs-12 col-md-6">
+        <h4 class="small-heading">Upcoming Events
+            <div class="hr"></div>
+        </h4>
+        <ul>
+            <li>
+                <h5>Post example</h5>
+                <h6 class="blog-date">06 Jul 2018</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ...</p>
+            </li>
+            <li>
+                <h5>Post example</h5>
+                <h6 class="blog-date">06 Jul 2018</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ...</p>
+            </li>
+        </ul>
+        <div class="text-right"><a href="#" class="btn-wire-dark">See all</a></div>
+        <br>
+        <br>
+        <h4 class="small-heading">Archives
+            <div class="hr"></div>
+        </h4>
+        <ul>
+            <li>
+                <h5>Post example</h5>
+                <h6 class="blog-date">06 Jul 2018</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ...</p>
+            </li>
+        </ul>
+        <br>
+        <br>
+        <h4 class="small-heading">External Links
+            <div class="hr"></div>
+        </h4>
+        <ul>
+            <li>
+                <h5>Post example</h5>
+                <h6 class="blog-date">06 Jul 2018</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ...</p>
+            </li>
+        </ul>
+    </div>
+    <div class="col-xs-12 col-md-6">
+        <div class="sticky">
+        <h4 class="small-heading">Recent posts
+            <div class="hr"></div>
+        </h4>
+        <ul>
+            <li>
+                <h5>Post example</h5>
+                <h6 class="blog-date">06 Jul 2018</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ...</p>
+            </li>
+            <li>
+                <h5>Post example</h5>
+                <h6 class="blog-date">06 Jul 2018</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ...</p>
+            </li>
+            <li>
+                <h5>Post example</h5>
+                <h6 class="blog-date">06 Jul 2018</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ...</p>
+            </li>
+        </ul>
+        <div class="text-right"><a href="#" class="btn-wire-dark">blogs.techspace.club</a></div>
+    </div>
+    </div>
+    </div>
+</div>
 <div class="container-fluid contact-section"> 
     <div class="row">
-        <div class="col-md-6 col-xs-12 contact-form-div">
-            <h1 class="section-heading" style="font-family: 'Ubuntu'">Contact US</h1>
+        <div class="col-md-6 col-xs-12 contact-form-div" id="contact">
+            <h1 class="section-heading">Contact US</h1>
+            <p>
+            <br>
+            +91 99684 65876
+            <br>techspace@ipu.ac.in
+            <br>
+            O/o Mr. Shiv Ram Meena <br> DTL-505, USICT, GGSIPU<br> Dwarka Sec 16-C, New Delhi - 110078</p>
             <form>
                 <label for="name" class="contact-label">Name</label><br>
                 <input type="text" name="name"><br>
 
-                <label for="name" class="contact-label">Name</label><br>
-                <input type="text" name="name"><br>
+                <label for="name" class="contact-label">Email</label><br>
+                <input type="email" name="email"><br>
 
-                <label for="name" class="contact-label">Name</label><br>
-                <input type="text" name="name"><br>
+                <label for="name" class="contact-label">Message</label><br>
+                <textarea type="text" name="message" rows="5"></textarea><br>
                 <br>
                 <button type="submit" class="btn-wire">Submit</button>
             </form>
         </div>
         <div class="col-md-6 col-xs-12 text-center">
-            <h2 class="small-section-heading" style="font-family: 'Ubuntu'">Partner Organisations</h2>
+            <br>
+            <h2 class="small-section-heading">Partner Organisations</h2>
             <div class="row">
                 <div class="col col-xs-6">
                     <img class="logo-partner" src="img/14.jpg">
@@ -381,7 +602,20 @@
             </div>
         </div>
     </div>
-    
+</div>
+
+<div class="container-fluid">
+<div class="footer row">
+    <div class="col-xs-12 col-md-4 text-center">
+        <h4>Sitemap</h4>
+    </div>
+    <div class="col-xs-12 col-md-4 text-center social">
+        <h5>Connect with us on:</h5>
+    </div>
+    <div class="col-xs-12 col-md-4 text-center">
+        <img class="ipu-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/GGSIU_logo.svg/220px-GGSIU_logo.svg.png" height="200px">
+    </div>
+</div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.0.0/particles.min.js"></script>
 <script src="./js/particles.min.js"></script>

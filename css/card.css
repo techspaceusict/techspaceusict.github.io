@@ -4,9 +4,9 @@
 .box-wrapper {
   background-color: #fff;
   overflow: hidden;
-  max-width: 500px;
+  max-width: 400px;
   max-height: 500px;
-  box-shadow: 0px 5px 43px rgba(0, 0, 0, 0.48);
+  /*box-shadow: 0px 5px 43px rgba(0, 0, 0, 0.48);*/
   padding: 0;
   text-align: center;
   position: relative;
@@ -92,7 +92,7 @@
 .box-content .buy span {
   width: 40px;
   height: 40px;
-  background-color: #06D6A0;
+  background-color: #f29260;
   display: block;
   border-radius: 50%;
   position: absolute;
@@ -123,3 +123,60 @@
   padding: 5px;
   display: block;
 }
+.content-club {
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin: 0.5rem;
+  margin-top: 2rem;
+  background: #d6d6d6;
+
+}
+
+.content {
+  padding: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .content-club {
+    border: none;
+    padding: 0px;
+    background: none;
+    margin-bottom: 30px;
+    border-bottom: 2px solid grey;
+  }
+
+  .box-wrapper {
+    margin-bottom: 10px; 
+  }
+  .circle-img {
+    height: 60px;
+    width: 60px;
+  }
+} 
+
+@media screen and (max-width: 768px) {
+  .content-club {
+    border-bottom: none;
+    margin: 0;
+  }
+
+}
+
+.footer {
+  background-color: #eee;
+  position: relative;
+  padding: 30px;
+}
+
+.page-link-visit  {
+  margin-top: 45px;
+}
+
+
+.card-image {
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+

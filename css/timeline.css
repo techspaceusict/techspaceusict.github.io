@@ -20,7 +20,7 @@ header h1 {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
-  padding: 2em 0;
+  padding-bottom: 2em;
 }
 
 .cd-timeline__container::before {
@@ -148,6 +148,3 @@ header h1 {
   color: grey;
 }
 
-h4 {
-  font-family: 'Ubuntu'
-}
