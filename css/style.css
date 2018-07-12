@@ -313,14 +313,21 @@ p.about-para {
   padding: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+  .contact-form-div {
+    border-bottom: 2px dotted white; 
+  }
+}
+@media screen and (min-width: 768px) {
 .contact-form-div {
   border-right: 2px dotted white; 
 }
 
+}
 .logo-partner {
   height: 150px;
   margin-bottom: 20px;
-  border: 2px solid white;
+  /*border: 2px solid white;*/
 }
 
 .sticky {
@@ -396,4 +403,20 @@ p.about-para {
     background-size: cover;
     background-position:  center;
     background-attachment: fixed;
+}
+
+input, textarea {
+  padding: 5px;
+  width: 300px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+.footer-links {
+  color: #f2925f;
+}
+.footer-links:hover {
+  text-decoration: none;
 }

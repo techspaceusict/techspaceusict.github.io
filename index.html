@@ -5,7 +5,7 @@
     <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Righteous|Do+Hyeon|Lobster+Two|Quicksand|Ubuntu|Raleway|Roboto|Roboto+Mono|Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="./img/TS-1.jpg">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/card.css">
@@ -22,7 +22,7 @@
     <div class="navbar-collapse collapse w-100 order-1 order-sm-0 dual-collapse">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Blogs</a>
+                <a class="nav-link" href="#">Community</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Events</a>
@@ -92,7 +92,7 @@
                 </h4>
                 
                 <p class="about-para" style="font-family: 'Quicksand'">
-                    Techspace is the “of the students, by the students, for the students” technical society of USICT that works towards <!-- providing students with  opportunities to grow outside --> . 
+                    Techspace is the “of the students, by the students, for the students” technical society of USICT that works towards promoting discussion, creative collaboration, research and skill development.<!-- providing students with  opportunities to grow outside -->  
                     <br>
                     We aim to provide an environment where students can tinker with ideas, experiment and capitalize on the power of a strong community.<br>
                     <br><h5><span style="border-bottom: 2px dotted #f29260;">Our vision is:</h5>
@@ -567,7 +567,7 @@
                 <div class="row slant-heading d-none d-sm-block" id="timeline" style="background-color: #f7f7f7; z-index: 1">
                     <div class="col p-2 text-center"><h1 class="section-heading">JOURNEY TILL NOW</h1><p class="cd-timeline__date">THE TECHSPACE STORY</p></div>
                 </div>
-                <h2 class="small-heading" >Faculty Board</h2>
+                <h3 class="small-heading" >Faculty Board</h3>
                 <br>
                 <div class="row" id="facultyBoard" style="font-family: 'Quicksand'">
                     <div class="col col-md-4 col-xs-4">
@@ -604,13 +604,13 @@
                     </div>
                 </div> -->
                 <br>
-                <h2 class="small-heading" >Student Body</h2>
+                <h3 class="small-heading" >Student Body</h3>
                 <br>
             </div>
         </div>
     </div>
 </div>
-<div class="container-fluid content-blog">
+<div class="container-fluid content-blog"><!-- 
     <div class="row">
     <div class="col-xs-12 col-md-6">
         <h4 class="small-heading">Upcoming Events
@@ -676,33 +676,38 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ...</p>
             </li>
         </ul>
-        <div class="text-right"><a href="#" class="btn-wire-dark">blogs.techspace.club</a></div>
+        <div class="text-right"><a href="#" class="btn-wire-dark">community.techspace.club</a></div>
     </div>
     </div>
     </div>
-</div>
+ --></div>
 <div class="container-fluid contact-section"> 
     <div class="row">
-        <div class="col-md-6 col-xs-12 contact-form-div" id="contact">
-            <h1 class="section-heading">Contact US</h1>
+        <div class="col-md-6 col-xs-12 contact-form-div text-center" id="contact">
+            <br>
+            <h2 class="small-section-heading">Contact US</h2>
             <p>
             <br>
             +91 99684 65876
             <br>techspace@ipu.ac.in
             <br>
             O/o Mr. Shiv Ram Meena <br> DTL-505, USICT, GGSIPU<br> Dwarka Sec 16-C, New Delhi - 110078</p>
-            <form>
-                <label for="name" class="contact-label">Name</label><br>
-                <input type="text" name="name"><br>
-
-                <label for="name" class="contact-label">Email</label><br>
-                <input type="email" name="email"><br>
-
-                <label for="name" class="contact-label">Message</label><br>
-                <textarea type="text" name="message" rows="5"></textarea><br>
+            <form action="https://airform.io/guptaprabhanshu1@gmail.com" method="post">
+                <!-- <label for="name" class="contact-label">Name</label><br> -->
+                <input type="text" name="name" placeholder="Name"><br>
                 <br>
-                <button type="submit" class="btn-wire">Submit</button>
+
+                <!-- <label for="name" class="contact-label">Email</label><br> -->
+                <input type="email" name="email" placeholder="Your Email"><br>
+                <br>
+
+                <!-- <label for="name" class="contact-label">Message</label><br> -->
+                <textarea type="text" name="message" rows="5" placeholder="Your message goes here.."></textarea><br>
+                <br>
+                <button type="submit" class="btn-wire">Send message</button>
             </form>
+                <br>
+
         </div>
         <div class="col-md-6 col-xs-12 text-center">
             <br>
@@ -730,12 +735,22 @@
 <div class="footer row">
     <div class="col-xs-12 col-md-4 text-center">
         <h4>Sitemap</h4>
+        <a href="/community.html" class="footer-links">Techspace Community</a><br>
+        <a href="/community.html" class="footer-links">Events</a><br>
+        <a href="#clubs" class="footer-links">Clubs @Techspace</a>
+        <br>
+        <br>
     </div>
     <div class="col-xs-12 col-md-4 text-center social">
         <h5>Connect with us on:</h5>
+        <a href="https://facebook.com/techspaceusict" class="footer-links"><i class="fa fa-facebook fa-2x"></i></a> &nbsp;&nbsp;
+        <a href="mailto:techspaceusict@gmail.com" class="footer-links"><i class="fa fa-envelope fa-2x"></i></a>
+        <br>
+        <br>
     </div>
     <div class="col-xs-12 col-md-4 text-center">
-        <img class="ipu-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/GGSIU_logo.svg/220px-GGSIU_logo.svg.png" height="200px">
+        <a href="http://ipu.ac.in" target="_blank" class="footer-links"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/GGSIU_logo.svg/220px-GGSIU_logo.svg.png" height="200px"><br>
+        Guru Gobind Singh <br>Indraprastha University</a>
     </div>
 </div>
 </div>
