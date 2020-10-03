@@ -1,4 +1,7 @@
-# techspaceusict.github.io
-Techspace USICT Website
+# Techspace's offical website (Live-here)
 
-THIS REPO HAS BEEN DEPRECATED. FIND THE NEW REPO AT https://github.com/techspaceusict/techspace-web
+## HactoberFest supported
+
+- Find issues here - https://github.com/techspaceusict/techspaceusict.github.io/issues
+- Make a PR
+- Contact any of your mentors in OSLC and Cogitans whatsapp group to help you make a PR.
