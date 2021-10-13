@@ -18,7 +18,7 @@ html, body {
 
 nav {
   border-bottom: 1px solid #ccc; 
-  background-color: white;
+  background-color: #fff;
   z-index: 2 !important;
   padding-top: 0px !important;
   padding-bottom: 0px !important;
@@ -120,12 +120,12 @@ nav {
   background-color: transparent;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  border: 2px solid white;
+  border: 2px solid #fff;
   padding: 5px 10px 5px 10px;
   border-radius: 5px;
   outline: none;
   transition: 0.2s all;
-  color: white;
+  color: #fff;
   cursor: pointer;
 
 }
@@ -134,8 +134,8 @@ nav {
 .btn-wire:hover {
   text-decoration: none;
   background-color: #f29260;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid #fff;
+  color: #fff;
 }
 
 .btn-wire-dark {
@@ -157,7 +157,7 @@ nav {
   text-decoration: none;
   background-color: #f29260;
   border: 2px solid #f29260;
-  color: white;
+  color:#fff;
 }
 
 .btn-wire-dark:focus,
