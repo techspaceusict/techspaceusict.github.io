@@ -224,7 +224,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                {/* <div className="col mb-4">
+                <div className="col mb-4">
                   <div
                     className="card card-2"
                     style={{ backgroundColor: "rgba(255, 131, 255, 0.207)" }}
@@ -243,7 +243,7 @@ const Home = () => {
                       </Link>
                     </div>
                   </div>
-                </div> */}
+                </div>
                 <div className="col mb-4">
                   <div
                     className="card card-2"
