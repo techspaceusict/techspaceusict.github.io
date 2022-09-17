@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.910afdb2.css",
-    "main.js": "/static/js/main.855b4b30.js",
+    "main.js": "/static/js/main.0c4a7230.js",
     "static/js/787.d3befce1.chunk.js": "/static/js/787.d3befce1.chunk.js",
     "static/media/Adarsh.png": "/static/media/Adarsh.6ee6bb19cba94cfed97c.png",
     "static/media/codeschool-01.JPG": "/static/media/codeschool-01.baa58739cc2f72871e9d.JPG",
@@ -65,11 +65,11 @@
     "static/media/chakresh.jpeg": "/static/media/chakresh.539d36e9c16e5638ca01.jpeg",
     "index.html": "/index.html",
     "main.910afdb2.css.map": "/static/css/main.910afdb2.css.map",
-    "main.855b4b30.js.map": "/static/js/main.855b4b30.js.map",
+    "main.0c4a7230.js.map": "/static/js/main.0c4a7230.js.map",
     "787.d3befce1.chunk.js.map": "/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.910afdb2.css",
-    "static/js/main.855b4b30.js"
+    "static/js/main.0c4a7230.js"
   ]
 }
