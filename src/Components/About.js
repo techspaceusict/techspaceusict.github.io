@@ -230,7 +230,7 @@ const About = (props) => {
             Club Leads
           </h3>
           <div className="row  club-leads">
-            <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+            {/* <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
               <div className="member" data-aos="fade-up">
                 <div className="member-img">
                   <img
@@ -252,7 +252,7 @@ const About = (props) => {
                   <span>GDSC Lead</span>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
               <div className="member" data-aos="fade-up" data-aos-delay={100}>
                 <div className="member-img">
@@ -322,8 +322,6 @@ const About = (props) => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="row  club-leads">
             <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
               <div className="member" data-aos="fade-up">
                 <div className="member-img">
@@ -347,6 +345,9 @@ const About = (props) => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="row  club-leads">
+            
             <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
               <div className="member" data-aos="fade-up" data-aos-delay={100}>
                 <div className="member-img">
