@@ -1,0 +1,70 @@
+.heroImage{
+    width: 40vw;
+}
+
+.myconatiner{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (width<800px){
+    .heroImage{
+        width: 80vw !important;
+    }
+
+}
+.btn-info{
+    background-color: #6e5494;
+    border: 0px solid #6e5494 !important;
+}
+.btn-info:hover{
+    background-color: rgb(243, 101, 49) !important;
+}
+.card{
+    min-height: 280px !important;
+}
+a:focus-visible{
+    border: 0px solid white !important;
+    box-shadow: white 0px 0px 0px 0px !important;
+    outline: none !important;
+}
+
+.clubImg{
+    width: 9vw;
+}
+
+.card-2:hover {
+    box-shadow: 0px 0px 5px 3px rgba(50, 50, 50, 0.288);
+    transform: scale(1.02);
+    transition: all 0.3s;
+}
+
+@media (width<600px){
+    .clubImg{
+        width: 30vw;
+    }
+}
+@media (width<800px) and (width>600px) {
+    .clubImg{
+        width: 15vw;
+    }
+}
+
+.card-title {
+    min-height:105px !important;
+}
+#root{
+    overflow: hidden !important;
+}
+
+#myModal{
+    background-color: rgb(237, 237, 237);
+    color: black !important;
+}
+
+.modal-header{
+    border-bottom: 0px !important;
+}
