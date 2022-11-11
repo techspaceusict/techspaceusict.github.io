@@ -13,7 +13,7 @@ const Team = (props) => {
 
   return (
     <div>
-      <>
+  
         <main id="main" className="body">
           <section id="team" className="team body">
             <div className="container">
@@ -180,7 +180,7 @@ const Team = (props) => {
               </h3>
               <div className="row  club-leads justify-content-around">
                 <div className="col-lg-6 col-md-6 d-flex align-items-stretch justify-content-center">
-                  <div className="clubBG d-flex" style={{backgroundColor: "#ffcccc"}}>
+                  <div className="clubBG d-flex" style={{backgroundColor: "#ccffff"}}>
                     <div
                       className="member"
                       data-aos="fade-up"
@@ -249,7 +249,7 @@ const Team = (props) => {
                 </div>
 
                 <div className="col-lg-6 col-md-6 d-flex align-items-stretch justify-content-center">
-                  <div className="clubBG d-flex" style={{backgroundColor: "#f4e9d5"}}>
+                  <div className="clubBG d-flex" style={{backgroundColor: "#ccffff"}}>
                     <div
                       className="member"
                       data-aos="fade-up"
@@ -330,7 +330,7 @@ const Team = (props) => {
               </div>
               <div className="row  club-leads">
                 <div className="col-lg-6 col-md-6 d-flex align-items-stretch justify-content-center">
-                  <div className="clubBG d-flex " style={{backgroundColor: "#ccffcc"}}>
+                  <div className="clubBG d-flex " style={{backgroundColor: "#ccffff"}}>
                     <div
                       className="member"
                       data-aos="fade-up"
@@ -406,7 +406,7 @@ const Team = (props) => {
                 </div>
 
                 <div className="col-lg-6 col-md-6 d-flex align-items-stretch justify-content-center">
-                  <div className="clubBG d-flex" style={{backgroundColor: "#dcccff"}}>
+                  <div className="clubBG d-flex" style={{backgroundColor: "#ccffff" }}>
                     <div
                       className="member"
                       data-aos="fade-up"
@@ -563,7 +563,7 @@ const Team = (props) => {
                 </div>
 
                 <div className="col-lg-6 col-md-6 d-flex align-items-stretch justify-content-center">
-                  <div className="clubBG d-flex" style={{backgroundColor: "#fff5cc"}}>
+                  <div className="clubBG d-flex" style={{backgroundColor: "#ccffff"}}>
                     <div
                       className="member"
                       data-aos="fade-up"
@@ -654,7 +654,7 @@ const Team = (props) => {
 
               <div className="row  club-leads">
                 <div className="col-lg-6 col-md-6 d-flex align-items-stretch justify-content-center">
-                  <div className="clubBG d-flex" style={{backgroundColor : "#ffe6ff"}}>
+                  <div className="clubBG d-flex" style={{backgroundColor: "#ccffff"}}>
                     <div
                       className="member"
                       data-aos="fade-up"
@@ -730,7 +730,7 @@ const Team = (props) => {
                 </div>
 
                 <div className="col-lg-6 col-md-6 d-flex align-items-stretch justify-content-center">
-                  <div className="clubBG d-flex" style={{backgroundColor: "#fff5cc"}}>
+                  <div className="clubBG d-flex" style={{backgroundColor: "#ccffff"}}>
                     <div
                       className="member"
                       data-aos="fade-up"
@@ -813,7 +813,7 @@ const Team = (props) => {
 
               <div className="row  club-leads">
                 <div className="col-lg-6 col-md-6 d-flex align-items-stretch justify-content-center">
-                  <div className="clubBG d-flex" style={{backgroundColor : "#ffe6ff"}}>
+                  <div className="clubBG d-flex" style={{backgroundColor: "#ccffff"}}>
                     <div
                       className="member"
                       data-aos="fade-up"
@@ -889,7 +889,7 @@ const Team = (props) => {
                 </div>
 
                 <div className="col-lg-6 col-md-6 d-flex align-items-stretch justify-content-center">
-                  <div className="clubBG d-flex" style={{backgroundColor: "#fff5cc"}}>
+                  <div className="clubBG d-flex" style={{backgroundColor: "#ccffff"}}>
                     <div
                       className="member"
                       data-aos="fade-up"
@@ -971,7 +971,7 @@ const Team = (props) => {
 
               <div className="row  club-leads">
                 <div className="col-lg-12 col-md-12 d-flex align-items-stretch justify-content-center">
-                  <div className="clubBG d-flex" style={{backgroundColor : "#ffe6ff"}}>
+                  <div className="clubBG d-flex" style={{backgroundColor: "#ccffff"}}>
                     <div
                       className="member"
                       data-aos="fade-up"
@@ -1324,7 +1324,6 @@ const Team = (props) => {
             </div>
           </section>
         </main>
-      </>
     </div>
   );
 };

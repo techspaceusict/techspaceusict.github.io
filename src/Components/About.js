@@ -18,13 +18,8 @@ const About = (props) => {
   }, [])
   
 
-
-
-
-
-
   return (
-    <div><>
+    <div>
     {/* ======= Hero Section ======= */}
     <section
       id="hero"
@@ -217,7 +212,6 @@ const About = (props) => {
       {/* End Gallery Section */}
 
     
-  </>
   </div>
   )
 }
