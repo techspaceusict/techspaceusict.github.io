@@ -8,7 +8,7 @@ import Electrotech from './Components/Electrotech';
 import About from './Components/About';
 import Team from './Components/Team';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route
 } from 'react-router-dom'
