@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Techspace-New/static/css/main.4eedd362.css",
-    "main.js": "/Techspace-New/static/js/main.091c8f6f.js",
+    "main.js": "/Techspace-New/static/js/main.f0b24957.js",
     "static/js/787.d3befce1.chunk.js": "/Techspace-New/static/js/787.d3befce1.chunk.js",
     "static/media/Ayus.jpeg": "/Techspace-New/static/media/Ayus.65c92368d94b6501eb10.jpeg",
     "static/media/codeschool-01.JPG": "/Techspace-New/static/media/codeschool-01.baa58739cc2f72871e9d.JPG",
@@ -84,11 +84,11 @@
     "static/media/chakresh.jpeg": "/Techspace-New/static/media/chakresh.539d36e9c16e5638ca01.jpeg",
     "index.html": "/Techspace-New/index.html",
     "main.4eedd362.css.map": "/Techspace-New/static/css/main.4eedd362.css.map",
-    "main.091c8f6f.js.map": "/Techspace-New/static/js/main.091c8f6f.js.map",
+    "main.f0b24957.js.map": "/Techspace-New/static/js/main.f0b24957.js.map",
     "787.d3befce1.chunk.js.map": "/Techspace-New/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4eedd362.css",
-    "static/js/main.091c8f6f.js"
+    "static/js/main.f0b24957.js"
   ]
 }
